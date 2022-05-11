@@ -1,0 +1,1 @@
+gcc ./Serial_Port_Library/Serial_Port.c main.c -o serialDebug `pkg-config --cflags --libs gtk+-3.0`
